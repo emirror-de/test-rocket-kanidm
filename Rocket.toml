@@ -1,0 +1,10 @@
+[default.tls]
+certs = "ca_cert.pem"
+key = "ca_key.pem"
+
+[default.oauth.kanidm]
+auth_uri = "https://localhost:8443/ui/oauth2"
+token_uri = "https://localhost:8443/oauth2/token"
+redirect_uri = "https://localhost:8000/auth/kanidm"
+client_id = "rocket_testapp"
+client_secret = "evL1pYckpvSQFzN7gwcDuR2tMbtVSydQqUuYqfVDwqsX2fX7"

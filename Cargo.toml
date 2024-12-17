@@ -1,0 +1,9 @@
+[package]
+name = "rocket-kanidm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.1", features = ["tls"] }
+rocket_oauth2 = { path = "../../../projects/rocket_oauth2" }
+tracing = "0.1.40"
